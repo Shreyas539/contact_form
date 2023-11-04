@@ -1,0 +1,28 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1180px;
+}
+
+.container{
+    position: relative;
+    top: 50%;
+    left: 30%;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.whatsapp-float{
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+}
